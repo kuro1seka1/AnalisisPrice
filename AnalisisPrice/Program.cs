@@ -11,7 +11,7 @@ using System.Security.Cryptography;
 using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 
-var botClient = new TelegramBotClient("6133154742:AAFbVdEO8dWouOl9X62ycFiC17QEJpH7sbg");
+var botClient = new TelegramBotClient("Bot token");
 AnalysisPriceBotDbContext db = new();
 var database = db.Analises.ToList();using CancellationTokenSource cts = new();
 List<string> memory = new List<string>(2);
