@@ -19,7 +19,7 @@ public partial class AnalysisPriceBotDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Server=95.107.53.93;Port=5848;Database=analysisPriceBotDB;User Id=nmt_vbot;Password=dVbbz9*~qU7C;");
+        => optionsBuilder.UseNpgsql("DB data connection");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
